@@ -1,0 +1,13 @@
+{
+  "name": "@talk2rajeev/simple-calculator",
+  "version": "2.0.0",
+  "description": "add, substrct, divide and multiply",
+  "main": "index.js",
+  "author": "Rajeev Sharma",
+  "repository": "https://github.com/talk2rajeev/simple-calculator",
+  "license": "MIT",
+  "keywords": [
+    "calculator",
+    "npm"
+  ]
+}
