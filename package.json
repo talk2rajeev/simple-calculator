@@ -1,6 +1,6 @@
 {
   "name": "@talk2rajeev/simple-calculator",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "add, substrct, divide and multiply",
   "main": "index.js",
   "author": "Rajeev Sharma",
