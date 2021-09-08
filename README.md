@@ -40,9 +40,10 @@ Explanation: 10 * 2 * 5 = 100
 
 
 #### Division
+division only takes 2 arguments
 ```
 divide(8,2) //output: 4
 
-divide(10,2,2) //output: 100
-Explanation: 10 / 2 / 1 = 2.5
+divide(10,2) //output: 100
+Explanation: 10 / 2  = 5
 ```
