@@ -3,9 +3,11 @@
 [![GitHub issues](https://img.shields.io/github/issues/talk2rajeev/simple-calculator.svg)](https://github.com/talk2rajeev/simple-calculator/issues)
 
 ## install
-```npm i @talk2rajeev/simple-calculator```
+```
+npm i @talk2rajeev/simple-calculator
+```
 
-## use
+## How to Use
 
 ### addition
 ```
@@ -13,6 +15,7 @@ import module from '@talk2rajeev/simple-calculator'
 ```
 
 #### addition
+```
 const { add, substract, multiply, divide } = module;
 
 add(1,2) //Output: 3
