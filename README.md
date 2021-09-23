@@ -53,5 +53,5 @@ Power only takes 2 arguments
 ```javascript
 power(2)(3) //output: 8
 
-divide(3,4) //output: 81
+power(3,4) //output: 81
 ```
