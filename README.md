@@ -49,7 +49,7 @@ Explanation: 10 / 2  = 5
 ```
 
 #### Power
-division only takes 2 arguments
+Power only takes 2 arguments
 ```javascript
 power(2)(3) //output: 8
 
