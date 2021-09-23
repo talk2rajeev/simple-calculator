@@ -56,6 +56,12 @@ function divide(a,b) {
   return a/b;
 }
 
+function power(op) {
+  return function (pow) {
+      return Math.pow(op, pow);
+  }
+}
+
 
 
 
@@ -64,7 +70,8 @@ module.exports = {
   add,
   substract,
   multiply,
-  divide
+  divide,
+  power
 }
 
 // function() {
