@@ -63,7 +63,19 @@ function power(op) {
 }
 
 
+function squareRoot(num) {
+  if(num) {
+    return Math.sqrt(num);
+  }
+  return new Error('argument missing')
+}
 
+function cubeRoot(num) {
+  if(num) {
+    return Math.cbrt(num);
+  }
+  return new Error('argument missing')
+}
 
 
 module.exports = {
