@@ -57,7 +57,7 @@ power(3)(4) //output: 81
 
 
 #### Square Root
-squareRoot accepts 1 argument
+
 ```javascript
 squareRoot(2); //Output: 1.4142135623730951
 squareRoot(4); //Output: 2
@@ -65,7 +65,7 @@ squareRoot(9); //Output: 3
 ```
 
 #### Cube Root
-cubeRoot accepts 1 argument
+
 ```javascript
 cubeRoot(3); //Output: 1.4422495703074083
 cubeRoot(8); //Output: 2
