@@ -77,13 +77,24 @@ function cubeRoot(num) {
   return new Error('argument missing')
 }
 
+function percent(p, x) {
+  if(typeof p !== "number" && typeof x !== "number") {
+    return new Error('Only numbers can be accepted');
+  }
+  return (p/x)*100;
+}
+
+
+
 
 module.exports = {
   add,
   substract,
   multiply,
   divide,
-  power
+  power,
+  squareRoot,
+  cubeRoot,
 }
 
 // function() {

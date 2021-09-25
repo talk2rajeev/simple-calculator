@@ -71,3 +71,11 @@ cubeRoot(3); //Output: 1.4422495703074083
 cubeRoot(8); //Output: 2
 cubeRoot(27); //Output: 3
 ```
+
+#### Percent
+
+```javascript
+percent(P, X)// here P is part and X is Whole
+percent(5, 20) //Output : 20
+Explanation: what percent 5 is of 20
+```
