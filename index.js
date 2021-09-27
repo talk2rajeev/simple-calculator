@@ -77,11 +77,18 @@ function cubeRoot(num) {
   return new Error('argument missing')
 }
 
-function percent(p, x) {
+function x_isPercentOf_Y(x, y) {
   if(typeof p !== "number" && typeof x !== "number") {
     return new Error('Only numbers can be accepted');
   }
-  return (p/x)*100;
+  return (x/y)*100;
+}
+
+function x_percentOf_Y(x, y) {
+  if(typeof p !== "number" && typeof x !== "number") {
+    return new Error('Only numbers can be accepted');
+  }
+  return (y*x)/100;
 }
 
 
@@ -95,8 +102,6 @@ module.exports = {
   power,
   squareRoot,
   cubeRoot,
+  x_isPercentOf_Y,
+  x_percentOf_Y
 }
-
-// function() {
-//   console.log('Hi there!!');
-// };

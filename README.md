@@ -72,10 +72,21 @@ cubeRoot(8); //Output: 2
 cubeRoot(27); //Output: 3
 ```
 
-#### Percent
+#### Given number is x% of y
 
 ```javascript
-percent(P, X)// here P is part and X is Whole
-percent(5, 20) //Output : 20
-Explanation: what percent 5 is of 20
+x_isPercentOf_Y(x, y); 
+
+x_isPercentOf_Y(5, 20) // here 5 is 25% of 20
+x_isPercentOf_Y(2, 20) // here 2 is 10% of 20
+```
+
+
+#### x% of y
+
+```javascript
+x_percentOf_Y(x, y); 
+
+x_percentOf_Y(10, 50) // 10% of 50 is 5
+x_percentOf_Y(25, 50) // 25% of 50 is 12.5
 ```
