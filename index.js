@@ -91,6 +91,10 @@ function x_percentOf_Y(x, y) {
   return (y*x)/100;
 }
 
+function min(...args) {
+  return Math.min(...args)
+} 
+
 
 
 
@@ -103,5 +107,6 @@ module.exports = {
   squareRoot,
   cubeRoot,
   x_isPercentOf_Y,
-  x_percentOf_Y
+  x_percentOf_Y,
+  min
 }

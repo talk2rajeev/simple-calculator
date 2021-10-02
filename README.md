@@ -90,3 +90,12 @@ x_percentOf_Y(x, y);
 x_percentOf_Y(10, 50) // 10% of 50 is 5
 x_percentOf_Y(25, 50) // 25% of 50 is 12.5
 ```
+
+#### min number
+
+```javascript
+min(n1, n2, n3.....); 
+
+min( 5,4,2,9,1) // Output: 1
+min(1,3,9,-1,4) // Output: -1
+```
